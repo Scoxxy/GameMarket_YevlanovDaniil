@@ -3,11 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>АплєСтор Євланов Данііл</title>
+    <title>Куб-Маркет</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <link rel="icon" href="./img/Untitled.png">
 </head>
 <body>
-    
+
+<!-- Меню навігації -->
+<nav class="nav">
+    <ul>
+        <li><a href="#home">Головна</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#contact">Контакти</a></li>
+    </ul>
+</nav>
+
+<!-- Головна сторінка -->
+<section class="home">
+    <h1>Ласкаво просимо в Куб-Маркет</p>
+</section>
+
+<!-- Галерея проектів -->
+<section id="gallery">
+    <h2>Галерея проектів</h2>
+    <!-- Додайте зображення та описи вашіх ігрових проектів -->
+    <div class="project">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Назва проекту 1</h3>
+        <p>Опис проекту 1.</p>
+    </div>
+    <div class="project">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Назва проекту 2</h3>
+        <p>Опис проекту 2.</p>
+    </div>
+    <!-- Додайте більше проектів за потреби -->
+</section>
+
+<!-- Контактна інформація -->
+<section id="contact">
+    <h2>Зв'яжіться зі мною</h2>
+    <p>Залиште повідомлення, щоб зв'язатися зі мною:</p>
+    <form action="submit.php" method="post">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Повідомлення:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Надіслати">
+    </form>
+</section>
+
 </body>
 </html>
