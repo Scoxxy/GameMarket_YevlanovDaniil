@@ -6,7 +6,21 @@ body {
     padding: 0;
     max-width: 1500;
 }
+body {
+    position: absolute;
+    margin: 0;
+    height: 100hv;
+    /*width: 100wh*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#score {
+    position: flex;
+    top: 10px;
+    left: 10px;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
