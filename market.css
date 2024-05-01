@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+content{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.title{
+    text-align: center;
+    background-color: brown;
+    width: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 5px;
+    letter-spacing: 3px;
+}
+div {
+    border: 1px solid darkgray;
+}
+.items {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.item {
+    width: 200px;
+    height: 320px;
+    margin-bottom: 10px;
+
+    border: 1px solid wheat;
+    border-radius: 5px;
+    box-shadow: 0 0 7px dimgray;
+}
+.contacts p {
+    margin: 3px;
+}
+.contacts p:first-child {
+    font-weight: bold;
+}
+.contacts p:last-child {
+    border-left: 3px solid rgb(253, 48, 48);
+}
