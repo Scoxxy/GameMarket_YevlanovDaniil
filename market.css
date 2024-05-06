@@ -60,8 +60,8 @@ content {
 
 .item-image {
     height: 180px;
-    background-image: url(img-market/1.png);
-    background-size: 70%;
+    background-image: url(market-img/Кравчук.jpg);
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
 }
