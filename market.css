@@ -19,7 +19,7 @@ content {
 
 
 .header {
-    background: rgb(173, 4, 4);
+    background: darkred;
     width: auto;
     color: white;
     padding: 10px;
@@ -34,19 +34,19 @@ content {
     margin-top: 10px ;
 }
 
-.items {
+.item {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
 
-.item {
+.items {
     min-width: 180px;
     min-height: 320px;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #ffffff;
-    border: 1px solid rgb(194, 194, 194);
+    background-color: whitesmoke;
+    border: 1px solid lavenderblush;
     border-radius: 5px;
     box-shadow: 0 0 7px black;
     
@@ -60,7 +60,7 @@ content {
 
 .item-image {
     height: 180px;
-    background-image: url(market-img/Кравчук.jpg);
+    background-image: url(img/Постер.png);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,8 +77,8 @@ content {
     height: 24px;
 }
 
-.prise {
-    border: 1px solid rgb(194, 194, 194);
+.priсe {
+    border: 1px solid lightblue;
     border-radius: 5px;
     padding: 5px 10px;
     display: flex;
@@ -107,7 +107,7 @@ content {
 }
 
 .bonus {
-    background: rgb(173, 4, 4);
+    background: darkred;
     color: white;
     border-radius: 5px;
     display: flex;
@@ -132,10 +132,8 @@ content {
 .info {
     font-size: 9px;
     text-align: justify;
-    color: grey;
+    color: darkgray;
 }
-
-
 
 .contacts p {
     margin: 3px;
@@ -146,12 +144,12 @@ content {
 }
 
 .contacts p:last-child {
-    border-left: 3px solid rgb(173, 4, 4);
+    border-left: 3px solid darkred;
     padding-left: 5px;
 }
 
 .license {
     font-size: 9px;
     text-align: justify;
-    color: rgb(120, 120, 120);
+    color: darkgrey;
 }
