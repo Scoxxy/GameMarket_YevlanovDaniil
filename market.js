@@ -4,10 +4,10 @@
 // let itemsDiv =document.getElementById("items"); 
 //Визначення масиву товарів
 let itemsArray = [
-    'Газоноосарка',
-    'Електричний тример',
-    'Електрична газонокосарка',
-    'Акумуляторний оприскувач'
+    'Газоноосарка 46',
+    'Електричний тример 85',
+    'Електрична газонокосарка 24',
+    'Акумуляторний оприскувач 75'
 ]
 //Отримання елементу з індифекатором items
 let itemsDiv = document.getElementById("items");
@@ -22,13 +22,13 @@ itemsArray.forEach((item,index)=>{
  <h2>Товар №${index + 1} з ${itemsArray.length}</h2><p>${item}</p></div>`
 })
     //Додавання відформатованого HTML коду в блок 
-    // itemsDiv.innerHTML += '<div class = "item"></div>' 
-    // itemsDiv.innerHTML += '<div class = "item"></div>' 
-    // itemsDiv.innerHTML += '<div class = "item"></div>' 
-    // itemsDiv.innerHTML += '<div class = "item"></div>' 
-    // for (let i =0; i<=100; i++){
-    //     itemsDiv.innerHTML += '<div class = "item"></div>'
-    // }
+    itemsDiv.innerHTML += '<div class = "item"></div>' 
+    itemsDiv.innerHTML += '<div class = "item"></div>' 
+    itemsDiv.innerHTML += '<div class = "item"></div>' 
+    itemsDiv.innerHTML += '<div class = "item"></div>' 
+    for (let i =0; i<=7; i++){
+        itemsDiv.innerHTML += '<div class = "item"></div>'
+    }
 } else {
     //Вивід повідомлення про не знайдений блок 
     console.log('Блок товарів не знайдено')
