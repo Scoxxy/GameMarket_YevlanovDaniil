@@ -7,13 +7,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 content {
-    width: 420px;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 10bodpx;
+    gap:10px;
     margin-top: 5px; 
 }
 
@@ -59,7 +60,7 @@ content {
 }
 
 .item-image {
-    height: 180px;
+    height: 200px;
     background-image: url(img-market/1.png);
     background-size: 70%;
     background-repeat: no-repeat;
@@ -86,7 +87,7 @@ content {
 }
 
 .prise div:first-child {
-    width: 80px;
+    width: 100px;
     font-size: 20px;
 }
 
@@ -103,7 +104,7 @@ content {
 }
 
 .prise div:last-child sup {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .bonus {
@@ -117,7 +118,7 @@ content {
 }
 
 .bonus div:first-child {
-    width: 80px;
+    width: 100px;
     font-size: 14px;
 }
 
